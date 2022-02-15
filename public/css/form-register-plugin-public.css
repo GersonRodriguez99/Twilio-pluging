@@ -1,0 +1,50 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ table{
+     text-align: center;
+ }
+ .form-registration-plugin{
+
+ }
+ .form-registration-plugin th{
+    cursor: pointer;
+    
+    padding: 12px;
+ }
+ .form-registration-plugin td{
+    padding: 12px;
+    color: rgb(159 150 150);
+    border-bottom: 1px solid rgba(159, 150, 150, 0.877);
+ }
+ td{
+     text-align: center !important;
+ }
+ .register-plugin-form div{
+display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+ .register-plugin-form p{
+     margin-bottom: 0px;
+     font-weight: bold;
+     margin-top: 10px;
+ }
+ .register-plugin-form input{
+    padding: 10px;
+    border-radius: 8px;
+ }
+ .register-plugin-form textarea{
+    padding: 10px;
+    border-radius: 8px;
+ }
+ .register-plugin-form input[type=submit]{
+    line-height: 36px;
+    padding: 16px 24px;
+    background-color: #000;
+    color: white;
+    text-transform: uppercase;
+ }
