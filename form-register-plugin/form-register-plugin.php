@@ -116,6 +116,6 @@ function cf_shortcode() {
 	return ob_get_clean();
 }
 
-add_shortcode( 'sitepoint_contact_form', 'cf_shortcode' );
+add_shortcode( 'twilio_contact_form', 'cf_shortcode' );
 
 ?>
