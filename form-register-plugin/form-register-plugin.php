@@ -87,7 +87,7 @@ run_form_register_plugin();
 function html_form_code() {
 	echo '<form action="' . esc_url( $_SERVER['REQUEST_URI'] ) . '" method="post" class="register-plugin-form">';
 	echo '<div><p>';
-	echo 'Your Number Register on Twilio (required) <br/></p>';
+	echo 'the number to send the message(required) <br/></p>';
 	echo '<input type="text" name="cf-numbers" placeholder="+2348059794251" value="' . ( isset( $_POST["cf-numbers"] ) ? esc_attr( $_POST["cf-numbers"] ) : '' ) . '" size="40"  required/>';
 	echo '</div>';
 	echo '<div><p>';
